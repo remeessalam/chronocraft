@@ -28,7 +28,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #febd59;
+  background-color: #016dad;
   border-radius: 8px;
 }
 @layer utilities {
