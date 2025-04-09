@@ -30,13 +30,13 @@ const AboutPage = () => {
                 Know About Us
               </h1>
               <p className="text-gray-800 mb-6" data-aos="fade-right">
-                At AI company, we don't just deliver technology solutions — we
-                become an integral part of your journey toward success. Our
-                mission is simple: to help businesses thrive in a rapidly
-                evolving digital world by providing innovative and tailored
-                solutions. With years of experience and a relentless drive to
-                solve problems, we're committed to enabling businesses of all
-                sizes to unlock their full potential.
+                At Chronocraft AI Solution, we don't just deliver technology
+                solutions — we become an integral part of your journey toward
+                success. Our mission is simple: to help businesses thrive in a
+                rapidly evolving digital world by providing innovative and
+                tailored solutions. With years of experience and a relentless
+                drive to solve problems, we're committed to enabling businesses
+                of all sizes to unlock their full potential.
               </p>
               <p className="text-gray-800" data-aos="fade-right">
                 We understand that the digital landscape can be overwhelming.
@@ -130,14 +130,14 @@ const AboutPage = () => {
             WHO WE ARE
           </h1>
           <p className="text-[#ffffff] mt-5" data-aos="fade-up">
-            At AI company, we are more than just a service provider – we are
-            your trusted technology partner. Our expert team is committed to
-            delivering innovative, customized solutions that address your unique
-            business challenges. Whether you’re aiming to streamline processes,
-            enhance customer experiences, or leverage new technologies, we’re
-            here to help you succeed in a rapidly evolving digital world. Get in
-            touch with us today to explore how we can help your business
-            innovate, grow, and thrive.
+            At Chronocraft AI Solution, we are more than just a service provider
+            – we are your trusted technology partner. Our expert team is
+            committed to delivering innovative, customized solutions that
+            address your unique business challenges. Whether you’re aiming to
+            streamline processes, enhance customer experiences, or leverage new
+            technologies, we’re here to help you succeed in a rapidly evolving
+            digital world. Get in touch with us today to explore how we can help
+            your business innovate, grow, and thrive.
           </p>
         </div>
       </section>

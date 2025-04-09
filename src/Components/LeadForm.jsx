@@ -18,7 +18,7 @@ const LeadForm = () => {
 
     const payload = {
       to: clientDetails.email,
-      name: "AI company",
+      name: "Chronocraft AI Solution",
       subject: values.subject,
       body: emailBody,
     };

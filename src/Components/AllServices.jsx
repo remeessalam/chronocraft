@@ -56,9 +56,9 @@ const ServiceSlider = () => {
             We Provide the Best IT Solution Services
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up">
-            At AI company, we offer a full range of advanced technology services
-            designed to empower businesses with scalable, intelligent, and
-            secure solutions.
+            At Chronocraft AI Solution, we offer a full range of advanced
+            technology services designed to empower businesses with scalable,
+            intelligent, and secure solutions.
           </p>
         </div>
 

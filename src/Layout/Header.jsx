@@ -21,7 +21,11 @@ const Header = () => {
     <header className="fixed z-40 py-4 bg-white  w-screen">
       <div className="wrapper flex items-center justify-between">
         <Link to={"/"} className="flex items-center">
-          <img src={logo} alt="AI company" className="h-12 sm:h-16" />
+          <img
+            src={logo}
+            alt="Chronocraft AI Solution"
+            className="h-12 sm:h-16"
+          />
         </Link>
 
         {/* Navigation Section */}

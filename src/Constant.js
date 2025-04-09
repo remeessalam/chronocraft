@@ -1,9 +1,5 @@
 import {
-  FaLightbulb,
-  FaStar,
-  FaHandshake,
   FaUsers,
-  FaRocket,
   FaSearch,
   FaEdit,
   FaCode,
@@ -90,7 +86,7 @@ export const routes = [
 ];
 export const clientDetails = {
   email: "mail id",
-  phone: "+91-9090909090",
+  phone: "+91-93800 99600",
   address: "company address",
   facebook: "https://www.facebook.com/",
   instagram: "https://www.instagram.com/",
@@ -180,7 +176,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "AI Company transformed the way we handle our data analytics. Their AI and machine learning solutions have not only improved our efficiency but also provided us with deep insights that we never had before. Their team is professional, responsive, and innovative.",
+      "Partnering with Chronocraft AI Solution for our Data Analytics & Business Intelligence needs was one of the best decisions we've made. Their insights helped us identify key performance trends and make smarter decisions. The team’s ability to turn complex data into actionable insights is unmatched.",
   },
   {
     id: 2,
@@ -188,7 +184,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p2.png"),
     designation: "CTO of FinServ Global",
     review:
-      "The blockchain solutions developed by AI Company have been a game-changer for our financial services. The implementation was seamless, and we’ve noticed enhanced security and transparency in our transactions. Highly recommend them for any blockchain needs!",
+      "Chronocraft AI Solution’s Blockchain Development services completely revamped our transaction system. The solutions they built were secure, scalable, and transparent—exactly what we needed to boost client trust and streamline operations. Their expertise in decentralization really stood out.",
   },
   {
     id: 3,
@@ -196,7 +192,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "We partnered with AI Company for custom web and mobile app development, and they exceeded our expectations. Their attention to detail, creativity, and commitment to delivering on time was remarkable. The app is user-friendly and has significantly improved our customer engagement.",
+      "The Web and Mobile App Development team at Chronocraft AI Solution exceeded our expectations. From sleek UI/UX to a fast, responsive backend, they delivered a platform that enhanced our customer journey and directly boosted our sales and retention metrics.",
   },
   {
     id: 4,
@@ -204,7 +200,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p4.png"),
     designation: "IT Director at Global Enterprises",
     review:
-      "The cybersecurity solutions provided by AI Company have given us peace of mind. They thoroughly assessed our infrastructure and implemented advanced threat detection and encryption technologies that protect our sensitive data. Their expertise is second to none!",
+      "Cybersecurity was a major concern for us until we worked with Chronocraft AI Solution. Their team implemented robust security frameworks and monitoring tools that have completely secured our infrastructure. We sleep better knowing our data is safe.",
   },
   {
     id: 5,
@@ -212,7 +208,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "Our collaboration with AI Company on VR development has opened new doors for our training programs. Their VR simulations are incredibly realistic and have helped us provide more effective and engaging training sessions for our employees.",
+      "We collaborated with Chronocraft AI Solution to develop a VR training program, and the results have been phenomenal. The simulations are immersive, engaging, and have significantly improved our employee learning curve. They truly redefined how we approach training.",
   },
 ];
 
