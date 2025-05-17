@@ -12,6 +12,7 @@ import AboutCompany from "../Components/AboutCompany";
 import recognition from "../assets/svgs/recognition.svg";
 import agilityorange from "../assets/svgs/agilityorange.svg";
 import users from "../assets/svgs/users.svg";
+import ChronocraftFAQ from "../Components/ChronocraftFAQ";
 const HomePage = () => {
   return (
     <div className="text-black max-w-screen overflow-x-hidden">
@@ -97,6 +98,7 @@ const HomePage = () => {
       <Testimonials />
       <AssociatedWith />
       <LeadForm />
+      <ChronocraftFAQ />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { industries } from "../Constant";
-import servicebgimg from "../assets/image/servicebgimg.jpeg";
+// import servicebgimg from "../assets/image/servicebgimg.jpeg";
 const Services = () => {
   console.log(industries, "asdfkmaasdfasdf");
   return (

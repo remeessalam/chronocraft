@@ -17,7 +17,7 @@ const Footer = () => {
             <img
               src={logo || "/placeholder.svg"}
               alt="Chronocraft AI Solution"
-              className="h-12"
+              className="h-12 sm:h-16"
             />
             <p className="text-sm">{clientDetails.address}</p>
             <div className="mt-8">
