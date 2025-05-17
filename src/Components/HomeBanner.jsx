@@ -18,20 +18,23 @@ const HomeBanner = () => {
           <Scroller />
           <div className="max-w-2xl ">
             <div className="space-y-4">
-              <p data-aos="fade-right" className="text-gray-300">
+              <p
+                data-aos="fade-right"
+                className="text-gray-300 sm:text-3xl font-bold"
+              >
                 Welcome to
               </p>
               <h1
                 data-aos="fade-right"
                 className="main-heading !text-white mb-4"
               >
-                Chronocraft AI Solution Software Solutions
+                Chronocraft AI Solution
               </h1>
               <h2
                 data-aos="fade-right"
                 className="text-2xl font-bold text-white mb-6"
               >
-                Shaping the Future of Innovation
+                Invent worlds evolve minds power the future
               </h2>
               <p data-aos="fade-right" className="text-gray-300 max-w-xl mb-8">
                 At Chronocraft AI Solution, we pride ourselves on being at the

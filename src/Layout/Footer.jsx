@@ -43,12 +43,13 @@ const Footer = () => {
           {/* Services */}
           <div className="w-full md:col-span-2">
             <h2 className="text-2xl font-bold mb-4 font-candal">Services</h2>
-            <ul className="grid md:grid-cols-2 space-y-2 gap-4 font-montserrat">
+            <ul className="grid md:grid-cols-2 space-y-1 gap-1 font-montserrat items-center">
               {updatedServices.map((obj) => (
                 <li key={obj.title}>
                   <Link
                     to={`/service/${obj.path}`}
                     className="hover:text-primary"
+                    style={{ fontFamily: "Arial" }}
                   >
                     {obj.title}
                   </Link>
@@ -111,10 +112,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center mt-12 text-sm border-t py-8 border-blue-950">
-        <p>
-          Copyright © 2025, All Right Reserved Chronocraft AI Solution software
-          solutions
-        </p>
+        <p>Copyright © 2025, All Right Reserved Chronocraft AI Solution</p>
       </div>
     </footer>
   );

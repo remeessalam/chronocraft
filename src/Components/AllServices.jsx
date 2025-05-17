@@ -53,7 +53,7 @@ const ServiceSlider = () => {
             Our Services
           </h3>
           <h2 className="main-heading mb-6 !text-primary" data-aos="fade-up">
-            We Provide the Best IT Solution Services
+            Turning Innovation Into Business Evolution
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up">
             At Chronocraft AI Solution, we offer a full range of advanced

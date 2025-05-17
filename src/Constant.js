@@ -86,7 +86,7 @@ export const routes = [
 ];
 export const clientDetails = {
   email: "mail id",
-  phone: "+91-93800 99600",
+  phone: "+91-99725 66559",
   address: "company address",
   facebook: "https://www.facebook.com/",
   instagram: "https://www.instagram.com/",

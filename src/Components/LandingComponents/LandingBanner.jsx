@@ -22,7 +22,7 @@ const LandingBanner = ({ isWeb }) => {
                 data-aos="fade-right"
                 className="main-heading !text-white mb-4"
               >
-                Chronocraft AI Solution Software Solutions
+                Chronocraft AI Solution
               </h1>
               <h2 data-aos="fade-right" className="text-2xl text-white mb-6">
                 {isWeb

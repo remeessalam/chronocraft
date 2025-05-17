@@ -35,7 +35,7 @@ const AboutCompany = () => {
             >
               <div className="mb-1 sm:mb-4 text-common">
                 <span className="text-2xl sm:text-6xl font-bold font-candal">
-                  2
+                  4
                 </span>
                 <span className="text-xl sm:text-4xl font-bold">+</span>
               </div>
