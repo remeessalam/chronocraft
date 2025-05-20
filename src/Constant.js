@@ -85,7 +85,7 @@ export const routes = [
   { path: "/services", name: "SERVICES", landingpath: "services" },
 ];
 export const clientDetails = {
-  email: "mail id",
+  email: "chronocraftaisolutions@gmail.com",
   phone: "+91-99725 66559",
   address: "company address",
   facebook: "https://www.facebook.com/",
