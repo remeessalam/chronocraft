@@ -83,16 +83,25 @@ const LandingFooter = () => {
             <div>
               <h2 className="text-2xl font-bold mb-4">Connect with</h2>
               <div className="flex space-x-4 text-white">
-                <Link to="#" className="hover:text-primary text-lg">
+                <Link
+                  to={clientDetails.facebook}
+                  className="hover:text-primary text-lg"
+                >
                   <FaFacebookF />
                 </Link>
-                <Link to="#" className="hover:text-primary text-lg">
+                <Link
+                  to={clientDetails.instagram}
+                  className="hover:text-primary text-lg"
+                >
                   <FaInstagram />
                 </Link>
                 <Link to="#" className="hover:text-primary text-lg">
                   <FaXTwitter />
                 </Link>
-                <Link to="#" className="hover:text-primary text-lg">
+                <Link
+                  to={clientDetails.youtube}
+                  className="hover:text-primary text-lg"
+                >
                   <FaYoutube />
                 </Link>
               </div>
