@@ -68,16 +68,16 @@ const Header = () => {
             >
               <FaInstagram /> {/* Instagram icon */}
             </Link>
-            <Link to="#" className="text-primary  text-xl">
+            {/* <Link to="#" className="text-primary  text-xl">
               <FaXTwitter />
-              {/* Twitter icon */}
+          
             </Link>
             <Link
               to={clientDetails.youtube}
               className="text-white bg-primary text-xl"
             >
-              <FaYoutube /> {/* YouTube icon */}
-            </Link>
+              <FaYoutube /> 
+            </Link> */}
           </div>
         </nav>
 

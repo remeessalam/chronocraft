@@ -95,7 +95,7 @@ const LandingFooter = () => {
                 >
                   <FaInstagram />
                 </Link>
-                <Link to="#" className="hover:text-primary text-lg">
+                {/* <Link to="#" className="hover:text-primary text-lg">
                   <FaXTwitter />
                 </Link>
                 <Link
@@ -103,7 +103,7 @@ const LandingFooter = () => {
                   className="hover:text-primary text-lg"
                 >
                   <FaYoutube />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

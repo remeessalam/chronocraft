@@ -95,7 +95,7 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </Link>
-                <Link to="#" className="  text-white  text-lg">
+                {/* <Link to="#" className="  text-white  text-lg">
                   <FaXTwitter />
                 </Link>
                 <Link
@@ -103,7 +103,7 @@ const Footer = () => {
                   className="  text-secondary bg-white text-lg rounded-sm p-[3px]"
                 >
                   <FaYoutube />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

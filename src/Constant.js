@@ -97,7 +97,8 @@ export const clientDetails = {
   facebook: "https://www.facebook.com/share/1BwJSUHoAt/",
   instagram:
     "https://www.instagram.com/chronocraftai?utm_source=qr&igsh=MXRoM2lpeXVqaGptdw==",
-  whatsapplink: "",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=919972566559&text&type=phone_number&app_absent=0",
   youtube: "https://www.youtube.com/",
   googlereview: "",
 };

@@ -11,11 +11,11 @@ module.exports = {
         bannerBackground: "#100f1e",
         bgcolor: "#f3f3f3",
       },
-      fontFamily: {
-        montserrat: ['"Montserrat Alternates"', "sans-serif"],
-        candal: ['"Candal"', "sans-serif"],
-        roboto: ['"Roboto"', "sans-serif"],
-      },
+      // fontFamily: {
+      //   montserrat: ['"Montserrat Alternates"', "sans-serif"],
+      //   candal: ['"Candal"', "sans-serif"],
+      //   roboto: ['"Roboto"', "sans-serif"],
+      // },
     },
   },
   plugins: [],
