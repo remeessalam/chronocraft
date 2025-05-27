@@ -9,6 +9,10 @@ const Layout = () => {
     <>
       <Header />
       <WhatsApp />
+      {/* <TawkMessengerReact
+        propertyId="682e19a17eaf011909ce6459"
+        widgetId="1irq188mb"
+      /> */}
       <Outlet />
       <Footer />
     </>
