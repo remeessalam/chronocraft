@@ -46,7 +46,7 @@ const ServiceSlider = () => {
   };
 
   return (
-    <div id="service" className="w-full py-16 bg-bgcolor">
+    <div id="service" className="w-full py-16">
       <div className="wrapper">
         <div className="text-center mb-12">
           <h3 className="section-name mb-4" data-aos="fade-up">
@@ -64,32 +64,39 @@ const ServiceSlider = () => {
 
         <div className="overflow-x-visible pb-6" data-aos="fade-up">
           <div ref={sliderRef} className="keen-slider py-5">
-            {updatedServices.map((service, index) => (
-              <div
-                key={index}
-                className="keen-slider__slide !min-w-[300px] !max-w-[300px]"
-              >
-                <div className="group hover:bg-secondary text-white bg-primary rounded-3xl p-8 w-full h-full flex flex-col gap-4  transition-colors duration-300">
-                  <div className="bg-black rounded-full w-16 h-16 flex items-center justify-center">
-                    <div className="service-icon">{service.icon}</div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold select-none">
-                      {service.title}
-                    </h3>
-                    <p className="font-montserrat text-sm select-none">
-                      {service.description}
-                    </p>
-                    <button
-                      onClick={() => handleReadMore(service)}
-                      className="group-hover:text-[#C5D82E] font-montserrat text-sm !font-bold mt-2 text-start select-none"
-                    >
-                      READ MORE
-                    </button>
+            {updatedServices.map((service, index) => {
+              console.log(service, " serviceasdfasdf");
+              return (
+                <div
+                  key={index}
+                  className="keen-slider__slide !min-w-[300px] !max-w-[300px]"
+                >
+                  <div className="group  hover:bg-secondary text-white bg-primary rounded-3xl p-4 w-full h-full flex flex-col gap-4  transition-colors duration-300">
+                    <div className="bg-black rounded-full w-full h-[10rem] flex items-center justify-center">
+                      <img
+                        src={service.dp}
+                        alt={"service icon"}
+                        className="w-full h-full rounded-xl"
+                      />
+                    </div>
+                    <div className="">
+                      <h3 className="text-xl font-bold select-none">
+                        {service.title}
+                      </h3>
+                      <p className="font-montserrat text-sm select-none">
+                        {service.description}
+                      </p>
+                      <button
+                        onClick={() => handleReadMore(service)}
+                        className="group-hover:text-[#C5D82E] font-montserrat text-sm !font-bold mt-2 text-start select-none"
+                      >
+                        READ MORE
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

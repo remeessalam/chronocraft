@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import aboutcompanyimage from "../assets/image/aboutcompanyimage.png";
+import backgroundimage from "../assets/image/aboutusbg.webp";
 const AboutCompany = () => {
   const navigate = useNavigate();
   return (
-    <div id="about" className=" bg-bgcolor px-8 pt-[4rem] pb-[9rem]">
+    <div
+      id="about"
+      className=" bg-bgcolor px-8 pt-[4rem] pb-[9rem] bg-current bg-cover bg-no-repeat bg-left"
+      style={{ backgroundImage: `url(${backgroundimage})` }}
+    >
       <div className="wrapper">
         {/* Header Section */}
         <div className="text-center mb-12">

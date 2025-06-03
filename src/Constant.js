@@ -79,6 +79,55 @@ import telecom from "./assets/industries/Telecom.webp";
 import discover from "./assets/svgs/discover.png";
 import planning from "./assets/svgs/planning.svg";
 import disign from "./assets/svgs/design.svg";
+
+//services images
+import aibanner from "./assets/image/services/aibanner.webp";
+import aidp from "./assets/image/services/aidp.webp";
+import appbanner from "./assets/image/services/appbanner.webp";
+import appdp from "./assets/image/services/appdp.webp";
+import webbanner from "./assets/image/services/webbanner.webp";
+import webdp from "./assets/image/services/webdp.webp";
+import databanner from "./assets/image/services/databanner.webp";
+import datadp from "./assets/image/services/datadp.webp";
+import mlbanner from "./assets/image/services/mlbanner.webp";
+import mldp from "./assets/image/services/mldp.webp";
+import uiuxbanner from "./assets/image/services/uiuxbanner.webp";
+import uiuxdp from "./assets/image/services/uiuxdp.webp";
+import custombanner from "./assets/image/services/custombanner.webp";
+import customdp from "./assets/image/services/customdp.webp";
+import iotbanner from "./assets/image/services/iotbanner.webp";
+import iotdp from "./assets/image/services/iotdp.webp";
+import rpabanner from "./assets/image/services/rpabanner.webp";
+import rpadp from "./assets/image/services/rpadp.webp";
+import blockbanner from "./assets/image/services/blockbanner.webp";
+import blockdp from "./assets/image/services/blockdp.webp";
+import chatbanner from "./assets/image/services/chatbanner.webp";
+import chatdp from "./assets/image/services/chatdp.webp";
+import devopsbanner from "./assets/image/services/devopsbanner.webp";
+import devopsdp from "./assets/image/services/devopsdp.webp";
+import cloudbanner from "./assets/image/services/cloudbanner.webp";
+import clouddp from "./assets/image/services/clouddp.webp";
+import visionbanner from "./assets/image/services/visionbanner.webp";
+import visiondp from "./assets/image/services/visiondp.webp";
+import nlpbanner from "./assets/image/services/nlpbanner.webp";
+import nlpdp from "./assets/image/services/nlpdp.webp";
+import sciencebanner from "./assets/image/services/datasciencebanner.webp";
+import sciencedp from "./assets/image/services/datasciencedp.webp";
+import bigdatabanner from "./assets/image/services/bigdatabanner.webp";
+import bigdatadp from "./assets/image/services/bigdatadp.webp";
+import migrationbanner from "./assets/image/services/migrationbanner.webp";
+import migrationdp from "./assets/image/services/migrationdp.webp";
+import arbanner from "./assets/image/services/arbanner.webp";
+import ardp from "./assets/image/services/ardp.webp";
+import cyberbanner from "./assets/image/services/cyberbanner.webp";
+import cyberdp from "./assets/image/services/cyberdp.webp";
+import itbanner from "./assets/image/services/itbanner.webp";
+import itdp from "./assets/image/services/itdp.webp";
+import gamebanner from "./assets/image/services/gamebanner.webp";
+import gamedp from "./assets/image/services/gamedp.webp";
+import callingbanner from "./assets/image/services/callingbanner.webp";
+import callingdp from "./assets/image/services/callingdp.webp";
+
 export const routes = [
   { path: "/", name: "HOME" },
   { path: "/about-us", name: "ABOUT US", landingpath: "aboutus" },
@@ -100,7 +149,7 @@ export const clientDetails = {
     "https://www.instagram.com/chronocraftai?utm_source=qr&igsh=MXRoM2lpeXVqaGptdw==",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=919972566559&text&type=phone_number&app_absent=0",
-  youtube: "https://www.youtube.com/",
+  linkedin: "https://www.linkedin.com/company/107171799/admin/dashboard/",
   googlereview: "",
 };
 export const industries = [
@@ -224,30 +273,35 @@ export const testimonials = [
 export const values = [
   {
     icon: innovation,
+    image: require("./assets/image/values/innovation.webp"),
     title: "Innovation",
     description:
       "We stay at the forefront of technology and continuously seek new, more effective ways to address challenges.",
   },
   {
     icon: quality,
+    image: require("./assets/image/values/quality.webp"),
     title: "Quality",
     description:
       "We are committed to delivering the highest quality solutions that not only meet but exceed expectations.",
   },
   {
     icon: integrity,
+    image: require("./assets/image/values/integrity.webp"),
     title: "Integrity",
     description:
       "We conduct our business with honesty, respect, and transparency, building long-term relationships based on trust.",
   },
   {
     icon: collaboration,
+    image: require("./assets/image/values/collaboration.webp"),
     title: "Collaboration",
     description:
       "We believe in working as a team with both our clients and our internal teams to deliver the best possible results.",
   },
   {
     icon: agility,
+    image: require("./assets/image/values/agility.webp"),
     title: "Agility",
     description:
       "In a rapidly changing world, we are flexible and adaptable, ensuring that our solutions remain relevant and impactful.",
@@ -502,8 +556,8 @@ export const updatedServicessss = [
       "Empowering businesses to process visual data efficiently and make intelligent, automated decisions.",
   },
   {
-    title: "Natural Language Solutions",
-    path: "natural-language-solutions",
+    title: "Natural Language Processing",
+    path: "natural-language-processing",
     icon: <FaLanguage className="text-white text-3xl" />,
     description:
       "Bridge the gap between human language and technology using advanced NLP techniques.",
@@ -666,6 +720,8 @@ export const updatedServicessss = [
 export const updatedServices = [
   {
     id: 1,
+    banner: aibanner,
+    dp: aidp,
     title: "Artificial Intelligence Development",
     path: "artificial-intelligence-development",
     icon: <FaRobot className="text-white text-3xl" />,
@@ -685,6 +741,8 @@ export const updatedServices = [
   },
   {
     id: 2,
+    banner: appbanner,
+    dp: appdp,
     title: "Mobile App Development (iOS & Android)",
     path: "mobile-app-development",
     icon: <FaMobileAlt className="text-white text-3xl" />,
@@ -705,6 +763,8 @@ export const updatedServices = [
   },
   {
     id: 3,
+    banner: webbanner,
+    dp: webdp,
     title: "Web Development (Full Stack)",
     path: "web-development",
     icon: <FaCode className="text-white text-3xl" />,
@@ -726,6 +786,8 @@ export const updatedServices = [
   },
   {
     id: 4,
+    banner: databanner,
+    dp: datadp,
     title: "Data Analytics & Business Intelligence",
     path: "data-analytics",
     icon: <FaChartLine className="text-white text-3xl" />,
@@ -747,6 +809,8 @@ export const updatedServices = [
   },
   {
     id: 5,
+    banner: mlbanner,
+    dp: mldp,
     title: "Machine Learning Solutions",
     path: "machine-learning",
     icon: <FaProjectDiagram className="text-white text-3xl" />,
@@ -768,6 +832,8 @@ export const updatedServices = [
   },
   {
     id: 6,
+    banner: uiuxbanner,
+    dp: uiuxdp,
     title: "UI/UX Design",
     path: "ui-ux-design",
     icon: <FaPaintBrush className="text-white text-3xl" />,
@@ -789,6 +855,8 @@ export const updatedServices = [
   },
   {
     id: 7,
+    banner: custombanner,
+    dp: customdp,
     title: "Custom Software Development",
     path: "custom-software",
     icon: <FaLaptopCode className="text-white text-3xl" />,
@@ -810,6 +878,8 @@ export const updatedServices = [
   },
   {
     id: 8,
+    banner: iotbanner,
+    dp: iotdp,
     title: "Internet of Things (IoT) Development",
     path: "iot-development",
     icon: <FaNetworkWired className="text-white text-3xl" />,
@@ -831,6 +901,8 @@ export const updatedServices = [
   },
   {
     id: 9,
+    banner: rpabanner,
+    dp: rpadp,
     title: "RPA (Robotic Process Automation)",
     path: "rpa",
     icon: <FaCogs className="text-white text-3xl" />,
@@ -852,6 +924,8 @@ export const updatedServices = [
   },
   {
     id: 10,
+    banner: blockbanner,
+    dp: blockdp,
     title: "Blockchain Development",
     path: "blockchain",
     icon: <FaBitcoin className="text-white text-3xl" />,
@@ -873,6 +947,8 @@ export const updatedServices = [
   },
   {
     id: 11,
+    banner: chatbanner,
+    dp: chatdp,
     title: "Chatbot Development",
     path: "chatbot",
     icon: <FaCommentAlt className="text-white text-3xl" />,
@@ -894,6 +970,8 @@ export const updatedServices = [
   },
   {
     id: 12,
+    banner: devopsbanner,
+    dp: devopsdp,
     title: "DevOps Services",
     path: "devops",
     icon: <FaCogs className="text-white text-3xl" />,
@@ -915,6 +993,8 @@ export const updatedServices = [
   },
   {
     id: 13,
+    banner: cloudbanner,
+    dp: clouddp,
     title: "Cloud Computing Services",
     path: "cloud-computing",
     icon: <FaCloud className="text-white text-3xl" />,
@@ -936,6 +1016,8 @@ export const updatedServices = [
   },
   {
     id: 14,
+    banner: visionbanner,
+    dp: visiondp,
     title: "Computer Vision Solutions",
     path: "computer-vision",
     icon: <FaRobot className="text-white text-3xl" />,
@@ -957,7 +1039,9 @@ export const updatedServices = [
   },
   {
     id: 15,
-    title: "Natural Language Solutions",
+    banner: nlpbanner,
+    dp: nlpdp,
+    title: "Natural Language Processing",
     path: "natural-language",
     icon: <FaCommentAlt className="text-white text-3xl" />,
     description:
@@ -978,6 +1062,8 @@ export const updatedServices = [
   },
   {
     id: 16,
+    banner: sciencebanner,
+    dp: sciencedp,
     title: "Data Science Services",
     path: "data-science",
     icon: <FaChartLine className="text-white text-3xl" />,
@@ -999,6 +1085,8 @@ export const updatedServices = [
   },
   {
     id: 17,
+    banner: bigdatabanner,
+    dp: bigdatadp,
     title: "Big Data Solutions",
     path: "big-data",
     icon: <FaDatabase className="text-white text-3xl" />,
@@ -1020,6 +1108,8 @@ export const updatedServices = [
   },
   {
     id: 18,
+    bammer: migrationbanner,
+    dp: migrationdp,
     title: "Cloud Migration Services",
     path: "cloud-migration",
     icon: <FaCloud className="text-white text-3xl" />,
@@ -1041,6 +1131,8 @@ export const updatedServices = [
   },
   {
     id: 19,
+    banner: arbanner,
+    dp: ardp,
     title: "AR/VR Development",
     path: "ar-vr",
     icon: <FaGamepad className="text-white text-3xl" />,
@@ -1062,6 +1154,8 @@ export const updatedServices = [
   },
   {
     id: 20,
+    banner: cyberbanner,
+    dp: cyberdp,
     title: "Cybersecurity Services",
     path: "cybersecurity",
     icon: <FaShieldAlt className="text-white text-3xl" />,
@@ -1083,6 +1177,8 @@ export const updatedServices = [
   },
   {
     id: 21,
+    banner: itbanner,
+    dp: itdp,
     title: "IT Infrastructure Services",
     path: "it-infrastructure",
     icon: <FaServer className="text-white text-3xl" />,
@@ -1104,6 +1200,8 @@ export const updatedServices = [
   },
   {
     id: 22,
+    banner: gamebanner,
+    dp: gamedp,
     title: "Gaming Application Development",
     path: "gaming",
     icon: <FaGamepad className="text-white text-3xl" />,
@@ -1125,6 +1223,8 @@ export const updatedServices = [
   },
   {
     id: 23,
+    banner: callingbanner,
+    dp: callingdp,
     title: "AI Calling Agency Solutions",
     path: "ai-calling",
     icon: <FaPhoneAlt className="text-white text-3xl" />,

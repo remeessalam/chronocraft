@@ -3,9 +3,10 @@ import React from "react";
 const PageBanner = ({ image, title }) => {
   return (
     <div
-      className="h-[50vh] bg-center bg-cover bg-no-repeat max-w-screen overflow-hidden w-screen flex justify-center sm:justify-start  items-center"
+      className="h-[50vh] relative bg-center bg-cover bg-no-repeat max-w-screen overflow-hidden w-screen flex justify-center sm:justify-start  items-center"
       style={{ backgroundImage: `url(${image})` }}
     >
+      <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="w-screen wrapper flex justify-start">
         <div className="">
           <h1

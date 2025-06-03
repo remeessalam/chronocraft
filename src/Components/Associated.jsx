@@ -4,6 +4,7 @@ import logo2 from "../assets/image/brand-logos/2.png";
 import logo3 from "../assets/image/brand-logos/3.png";
 import logo4 from "../assets/image/brand-logos/4.png";
 import logo5 from "../assets/image/brand-logos/5.png";
+import assosiatebg from "../assets/image/assosiatebg.webp";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
@@ -51,10 +52,14 @@ const AssociatedWith = () => {
     },
   });
   return (
-    <div className="pt-[4rem] w-full max-w-screen overflow-hidden flex flex-col items-center relative bg-bgcolor">
+    <div
+      className="pt-[4rem] w-full max-w-screen overflow-hidden bg-current bg-cover bg-n0-repeat flex flex-col items-center relative bg-bgcolor"
+      style={{ backgroundImage: `url(${assosiatebg})` }}
+    >
+      <div className="absolute inset-0 bg-black/60"></div>
       <div className=" flex flex-col items-center">
         {/* <div className="blurred-blue right-[-10%] bottom-[-10%] -z-10"></div> */}
-        <h2 data-aos="fade-up" className="section-name ">
+        <h2 data-aos="fade-up" className="section-name !text-white">
           Associated With
         </h2>
 

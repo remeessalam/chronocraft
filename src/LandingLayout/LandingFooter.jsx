@@ -1,7 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/image/logo/logo.png";
 import { clientDetails, routes, updatedServices } from "../Constant";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import { Link as Scroll } from "react-scroll";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -9,7 +15,7 @@ const LandingFooter = () => {
   const { pathname } = useLocation();
 
   return (
-    <footer className="bg-gray-400 text-white pt-12">
+    <footer className="bg-gray-900 text-white pt-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -17,7 +23,7 @@ const LandingFooter = () => {
             <img
               src={logo || "/placeholder.svg"}
               alt="Chronocraft AI Solution"
-              className="h-12"
+              className="h-12 sm:h-16"
             />
             <p className="text-sm">{clientDetails.address}</p>
             <div className="mt-8">
@@ -94,6 +100,12 @@ const LandingFooter = () => {
                   className="hover:text-primary text-lg"
                 >
                   <FaInstagram />
+                </Link>
+                <Link
+                  to={clientDetails.linkedin}
+                  className="hover:text-primary text-lg"
+                >
+                  <FaLinkedin />
                 </Link>
                 {/* <Link to="#" className="hover:text-primary text-lg">
                   <FaXTwitter />

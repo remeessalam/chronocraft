@@ -7,6 +7,7 @@ import {
   FaYoutube,
   FaBars,
   FaTimes,
+  FaLinkedin,
 } from "react-icons/fa"; // Import icons from react-icons
 import { useState } from "react";
 import logo from "../assets/image/logo/logo.png";
@@ -68,11 +69,13 @@ const Header = () => {
             >
               <FaInstagram /> {/* Instagram icon */}
             </Link>
-            {/* <Link to="#" className="text-primary  text-xl">
-              <FaXTwitter />
-          
-            </Link>
             <Link
+              to={clientDetails.linkedin}
+              className="text-white  bg-primary p-[2px] text-xl"
+            >
+              <FaLinkedin />
+            </Link>
+            {/*  <Link
               to={clientDetails.youtube}
               className="text-white bg-primary text-xl"
             >
@@ -138,16 +141,19 @@ const Header = () => {
               >
                 <FaInstagram /> {/* Instagram icon */}
               </Link>
-              <Link to="#" className="text-primary  text-xl">
-                <FaXTwitter />
+              <Link
+                to={clientDetails.linkedin}
+                className="text-white  bg-primary p-[2px] text-xl"
+              >
+                <FaLinkedin />
                 {/* Twitter icon */}
               </Link>
-              <Link
+              {/* <Link
                 to={clientDetails.youtube}
                 className="text-white bg-primary text-xl"
               >
-                <FaYoutube /> {/* YouTube icon */}
-              </Link>
+                <FaYoutube /> 
+              </Link> */}
             </div>
           </div>
         )}

@@ -1,7 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/image/logo/footericon.png";
+import logo from "../assets/image/logo/logo.png";
 import { clientDetails, routes, updatedServices } from "../Constant";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import phoneicon from "../assets/image/phoneicon.png";
 import messageicon from "../assets/image/sendicon.png";
@@ -9,7 +15,7 @@ const Footer = () => {
   const { pathname } = useLocation();
 
   return (
-    <footer className="bg-gray-400 text-white pt-12">
+    <footer className="bg-gray-900 text-white pt-12">
       <div className="wrapper">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -95,10 +101,13 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </Link>
-                {/* <Link to="#" className="  text-white  text-lg">
-                  <FaXTwitter />
-                </Link>
                 <Link
+                  to={clientDetails.linkedin}
+                  className="  text-secondary bg-white text-lg rounded-sm p-[3px]"
+                >
+                  <FaLinkedin />
+                </Link>
+                {/* <Link
                   to={clientDetails.youtube}
                   className="  text-secondary bg-white text-lg rounded-sm p-[3px]"
                 >

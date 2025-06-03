@@ -28,19 +28,25 @@ const Services = () => {
               <div
                 key={industries.id}
                 data-aos="fade-up"
-                className="relative rounded-3xl group p-8  transition-all duration-500 ease-in-out overflow-hidden"
+                className="relative rounded-3xl group p-4  transition-all duration-500 ease-in-out overflow-hidden bg-primary hover:bg-primary/90  hover:backdrop-blur-3xl group-hover:scale-110 "
               >
                 {/* Background Image with Opacity Transition */}
                 <div
-                  className="absolute top-0 left-0 w-full h-full bg-cover  bg-center transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100"
-                  style={{ backgroundImage: `url(${industry?.image})` }}
-                ></div>
-                <div className="absolute w-full h-full top-0 left-0 bg-transparent group-hover:bg-black/50" />
+                  className="  w-full h-[10rem] rounded-xl  bg-cover  overflow-hidden  bg-center transition-opacity duration-500 ease-in-out "
+                  // style={{ backgroundImage: `url(${industry?.image})` }}
+                >
+                  <img
+                    src={industry.image}
+                    alt={industry.title}
+                    className="w-full h-fit group-hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                {/* <div className="absolute w-full h-full top-0 left-0 bg-black/50 group-hover:bg-black/70 transition-all duration-500" /> */}
                 {/* White Overlay */}
-                <div className="absolute top-0 left-0 w-full h-full bg-primary/70  transition-opacity duration-500 ease-in-out group-hover:opacity-0"></div>
+                {/* <div className="absolute top-0 left-0 w-full h-full bg-primary/70  transition-opacity duration-500 ease-in-out group-hover:opacity-0"></div> */}
 
                 {/* Content */}
-                <div className="relative z-10 group-hover:text-white text-white">
+                <div className="  group-hover:text-white text-white mt-3">
                   <h3 className="text-2xl font-bold mb-4 group-hover:text-white">
                     {industry.title}
                   </h3>

@@ -6,6 +6,7 @@ import {
   FaYoutube,
   FaBars,
   FaTimes,
+  FaLinkedin,
 } from "react-icons/fa"; // Import icons from react-icons
 import { useState } from "react";
 import logo from "../assets/image/logo/logo.png";
@@ -73,6 +74,12 @@ const LandingHeader = () => {
             >
               <FaInstagram /> {/* Instagram icon */}
             </Link>
+            <Link
+              to={clientDetails.linkedin}
+              className="text-white  bg-primary p-[2px] text-xl"
+            >
+              <FaLinkedin />
+            </Link>
             {/* <Link to="#" className="text-primary  text-xl">
               <FaXTwitter />
             
@@ -132,17 +139,23 @@ const LandingHeader = () => {
             ))}
             {/* Social Media Icons */}
             <div className="flex items-center space-x-4">
-              <Link to="#" className="text-secondary hover:text-blue-700">
-                <FaFacebookF />
+              <Link
+                to={clientDetails.facebook}
+                className="text-white  text-xl bg-primary pt-[3px]"
+              >
+                <FaFacebookF /> {/* Facebook icon */}
               </Link>
-              <Link to="#" className="text-secondary hover:text-pink-700">
-                <FaInstagram />
+              <Link
+                to={clientDetails.instagram}
+                className="text-white  bg-primary p-[2px] text-xl"
+              >
+                <FaInstagram /> {/* Instagram icon */}
               </Link>
-              <Link to="#" className="text-secondary hover:text-blue-500">
-                <FaXTwitter />
-              </Link>
-              <Link to="#" className="text-secondary hover:text-red-700">
-                <FaYoutube />
+              <Link
+                to={clientDetails.linkedin}
+                className="text-white  bg-primary p-[2px] text-xl"
+              >
+                <FaLinkedin />
               </Link>
             </div>
           </div>

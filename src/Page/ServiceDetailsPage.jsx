@@ -19,10 +19,10 @@ const ServiceDetailsPage = () => {
   return (
     <div className="pt-[80px] pb-[5rem] max-w-screen overflow-x-hidden">
       {/* Banner Section */}
-      <PageBanner image={bannerImage} title={service?.title} />
+      <PageBanner image={service?.banner} title={service?.title} />
 
       {/* Main Content & Sidebar Layout */}
-      <div className="wrapper mt-10 flex flex-col lg:flex-row gap-8">
+      <div className="max-w-[90rem] mx-auto sm:px-8 px-4 mt-10 flex flex-col lg:flex-row gap-8">
         {/* Main Service Details */}
         <div className="lg:w-3/4">
           <h1 className="text-4xl font-bold mb-6 text-blue-600">

@@ -61,14 +61,14 @@ const OurValues = ({ hideWorkProcess }) => {
           {values.map((value, index) => (
             <div
               key={index}
-              className="bg-primary/60 flex justify-center items-center gap-5 rounded-[20px] p-6"
+              className="bg-primary/90 flex flex-col justify-center items-center gap-5 rounded-[20px] p-3"
               data-aos="fade-up"
             >
               <div className="text-primary mb-4">
                 <img
-                  src={value.icon}
+                  src={value.image}
                   alt="icon"
-                  className="min-w-[69px] min-h-[60px] saturate-50 brightness-50 "
+                  className="min-w-[69px] min-h-[60px] rounded-xl "
                 />
               </div>
               <div>

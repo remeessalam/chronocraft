@@ -96,7 +96,7 @@ const AboutPage = () => {
                   alt=""
                   className="h-[4rem] w-[4rem] grayscale"
                 />
-                <h2 className="text-4xl font-bold font-candal">50+</h2>
+                <h2 className="text-4xl font-bold font-candal">100+</h2>
                 <p className=" pl-3 font-semibold">Projects Completed</p>
               </div>
               <div className="flex flex-col gap-2 text-white items-start md:border-r-2 border-white/40 p-5 md:pl-10">
