@@ -234,7 +234,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "Partnering with Chronocraft AI Solution for our Data Analytics & Business Intelligence needs was one of the best decisions we've made. Their insights helped us identify key performance trends and make smarter decisions. The team’s ability to turn complex data into actionable insights is unmatched.",
+      "Partnering with Chronocraft AI Solutions for our Data Analytics & Business Intelligence needs was one of the best decisions we've made. Their insights helped us identify key performance trends and make smarter decisions. The team’s ability to turn complex data into actionable insights is unmatched.",
   },
   {
     id: 2,
@@ -250,7 +250,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "The Web and Mobile App Development team at Chronocraft AI Solution exceeded our expectations. From sleek UI/UX to a fast, responsive backend, they delivered a platform that enhanced our customer journey and directly boosted our sales and retention metrics.",
+      "The Web and Mobile App Development team at Chronocraft AI Solutions exceeded our expectations. From sleek UI/UX to a fast, responsive backend, they delivered a platform that enhanced our customer journey and directly boosted our sales and retention metrics.",
   },
   {
     id: 4,
@@ -258,7 +258,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p4.png"),
     designation: "IT Director at Global Enterprises",
     review:
-      "Cybersecurity was a major concern for us until we worked with Chronocraft AI Solution. Their team implemented robust security frameworks and monitoring tools that have completely secured our infrastructure. We sleep better knowing our data is safe.",
+      "Cybersecurity was a major concern for us until we worked with Chronocraft AI Solutions. Their team implemented robust security frameworks and monitoring tools that have completely secured our infrastructure. We sleep better knowing our data is safe.",
   },
   {
     id: 5,
@@ -266,7 +266,7 @@ export const testimonials = [
     img: require("./assets/image/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "We collaborated with Chronocraft AI Solution to develop a VR training program, and the results have been phenomenal. The simulations are immersive, engaging, and have significantly improved our employee learning curve. They truly redefined how we approach training.",
+      "We collaborated with Chronocraft AI Solutions to develop a VR training program, and the results have been phenomenal. The simulations are immersive, engaging, and have significantly improved our employee learning curve. They truly redefined how we approach training.",
   },
 ];
 
@@ -355,7 +355,7 @@ export const updatedServicessss = [
       "Empower your business with custom-built AI solutions tailored to solve complex challenges and automate workflows.",
     detailedDescription: `Our AI development services are designed to integrate intelligent automation and deep learning into your business processes. From concept to deployment, we craft AI solutions that are scalable, efficient, and aligned with your goals.`,
     services: [
-      "AI Solution Architecture: Designing scalable and efficient AI architectures to support your use cases.",
+      "AI Solutions Architecture: Designing scalable and efficient AI architectures to support your use cases.",
       "Computer Vision & Image Recognition: Automating visual tasks such as identification, tracking, and quality control.",
       "NLP & Language Models: Enabling smart interactions with chatbots, voice assistants, and language processing systems.",
       "AI Model Training & Deployment: Building and training ML/AI models for production-ready deployment.",
@@ -729,7 +729,7 @@ export const updatedServices = [
       "Empower your business with custom-built AI solutions tailored to solve complex challenges and automate workflows.",
     detailedDescription: `Our AI development services are designed to integrate intelligent automation and deep learning into your business processes. From concept to deployment, we craft AI solutions that are scalable, efficient, and aligned with your strategic objectives. We leverage cutting-edge frameworks and algorithms to create systems that learn and adapt to your business needs.`,
     services: [
-      "AI Solution Architecture: Designing scalable and efficient AI architectures to support complex business use cases.",
+      "AI Solutions Architecture: Designing scalable and efficient AI architectures to support complex business use cases.",
       "Computer Vision & Image Recognition: Automating visual tasks such as identification, tracking, and quality control with pixel-perfect precision.",
       "NLP & Language Models: Developing sophisticated language understanding systems for chatbots, voice assistants, and document processing.",
       "AI Model Training & Deployment: Building, training, and optimizing ML/AI models for enterprise-grade deployment.",

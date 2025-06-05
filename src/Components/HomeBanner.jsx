@@ -28,7 +28,7 @@ const HomeBanner = () => {
                 data-aos="fade-right"
                 className="main-heading !text-white mb-4"
               >
-                Chronocraft AI Solution
+                Chronocraft AI Solutions
               </h1>
               <h2
                 data-aos="fade-right"
@@ -37,7 +37,7 @@ const HomeBanner = () => {
                 Invent worlds evolve minds power the future
               </h2>
               <p data-aos="fade-right" className="text-gray-300 max-w-xl mb-8">
-                At Chronocraft AI Solution, we pride ourselves on being at the
+                At Chronocraft AI Solutions, we pride ourselves on being at the
                 forefront of technological innovation. We focused on delivering
                 comprehensive solutions that help businesses evolve and excel in
                 the ever-changing digital world...

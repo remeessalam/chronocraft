@@ -24,7 +24,7 @@ const Header = () => {
         <Link to={"/"} className="flex items-center">
           <img
             src={logo}
-            alt="Chronocraft AI Solution"
+            alt="Chronocraft AI Solutions"
             className="h-12 sm:h-16"
           />
         </Link>

@@ -56,7 +56,7 @@ const ServiceSlider = () => {
             Turning Innovation Into Business Evolution
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up">
-            At Chronocraft AI Solution, we offer a full range of advanced
+            At Chronocraft AI Solutions, we offer a full range of advanced
             technology services designed to empower businesses with scalable,
             intelligent, and secure solutions.
           </p>

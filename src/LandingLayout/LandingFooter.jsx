@@ -22,7 +22,7 @@ const LandingFooter = () => {
           <div className="space-y-4">
             <img
               src={logo || "/placeholder.svg"}
-              alt="Chronocraft AI Solution"
+              alt="Chronocraft AI Solutions"
               className="h-12 sm:h-16"
             />
             <p className="text-sm">{clientDetails.address}</p>
@@ -125,7 +125,7 @@ const LandingFooter = () => {
       {/* Copyright */}
       <div className="text-center mt-12 text-sm border-t py-8 border-blue-950">
         <p>
-          Copyright © 2025, All Right Reserved Chronocraft AI Solution software
+          Copyright © 2025, All Right Reserved Chronocraft AI Solutions software
           solutions
         </p>
       </div>
